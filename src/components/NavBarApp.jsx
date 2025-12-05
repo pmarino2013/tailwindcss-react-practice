@@ -50,6 +50,7 @@ const NavBarApp = () => {
           </ul>
         </nav>
       )}
+      {/* Menú en tamaños medianos y grandes  */}
       <nav className="hidden md:flex md:justify-between items-center px-5  text-slate-50">
         <ul className="md:mt-0 p-2 text-center font-bold flex gap-4 ">
           {lista.map((item) => (
